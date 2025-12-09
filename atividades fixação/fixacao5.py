@@ -1,0 +1,12 @@
+soma = 0
+quantidade = 0
+while True:
+    idade = int(input("Digite a idade (0 para parar): "))
+    if idade == 0:
+        break   
+    soma += idade   
+    quantidade += 1     
+if quantidade > 0:
+    media = soma / quantidade
+    print(f"Soma das idades: {soma}")
+    print(f"Média das idades: {media:.2f}")
